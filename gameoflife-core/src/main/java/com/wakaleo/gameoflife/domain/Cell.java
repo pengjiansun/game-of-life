@@ -14,6 +14,7 @@ public enum Cell {
     private String symbol;
 
     private Cell(final String initialSymbol) {
+        System.out.println("Hello world!");
         this.symbol = initialSymbol;
     }
 
